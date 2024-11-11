@@ -11,6 +11,11 @@
   "keywords": [],
   "author": "Artyom",
   "license": "ISC",
+  "browserslist": [
+    "defaults",
+    "not dead",
+    "not op_mini all"
+  ],
   "description": "",
   "devDependencies": {
     "@babel/core": "^7.26.0",
@@ -31,6 +36,8 @@
     "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/polyfill": "^7.12.1",
+    "group-css-media-queries-loader": "^4.3.0",
+    "resolve-url-loader": "^5.0.0"
   }
 }
