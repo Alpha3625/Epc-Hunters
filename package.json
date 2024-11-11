@@ -36,8 +36,6 @@
     "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-    "group-css-media-queries-loader": "^4.3.0",
-    "resolve-url-loader": "^5.0.0"
+    "@babel/polyfill": "^7.12.1"
   }
 }
