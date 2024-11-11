@@ -1,0 +1,239 @@
+.container {
+    max-width: calc(1140px + 2 * 15px);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.home {
+    background-color: #5E7600;
+    background: url("./assets/desktop.jpg") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    padding: 40px 0 113px;
+
+    @media (max-width: 500px) {
+        padding: 30px 0 138px;
+    }
+}
+
+.home__inner {
+    margin-top: 138px;
+}
+
+.home__title {
+    font-family: "Actay Wide";
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 48px;
+
+    @media (max-width: 800px) {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+}
+
+.home__container {
+    position: relative;
+    margin-left: 20px;
+
+    &>img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        transform: translateY(-11px);
+
+        @media (max-width: 700px) {
+            display: none;
+        }
+    }
+
+    @media (max-width: 700px) {
+        margin: 0 auto;
+    }
+}
+
+.home__list {
+    width: 100%;
+    height: 100%;
+
+    @media (max-width: 700px) {
+        min-height: 217px;
+    }
+}
+
+.home__item {
+    padding: 11px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    max-width: clamp(200px, 25vw, 286px);
+    width: 100%;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 15px 0 rgba(255, 255, 255, 0.35);
+    border: 3px solid #fff;
+    border-radius: 35px 0;
+    margin: 0 auto;
+    transition: all .3s;
+    position: absolute;
+
+    &>img {
+        position: absolute;
+        top: -26px;
+        right: -17px;
+    }
+
+    @media (max-width: 1000px) {
+        padding: 5px 10px;
+    }
+
+    @media (max-width: 900px) {
+        padding: 0 5px;
+    }
+
+    @media (max-width: 700px) {
+        max-width: 310px;
+        height: 217px;
+        backdrop-filter: inherit;
+        flex-direction: column;
+        justify-content: center;
+        gap: 22px;
+
+        // position: relative;
+        // display: flex;
+        // justify-content: start;
+        // align-items: center;
+        // min-height: 217px;
+        
+        top: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        z-index: 1;
+
+        &:not(:nth-child(1)) {
+            opacity: 0;
+          }
+    }
+
+    &:nth-child(1) {
+        top: 2%;
+        left: -10px;
+    }
+
+    &:nth-child(2) {
+        top: 50.5%;
+        left: 5%;
+    }
+
+    &:nth-child(3) {
+        top: 71.1%;
+        left: 36%;
+    }
+
+    &:nth-child(4) {
+        top: 24%;
+        left: 30%;
+    }
+
+    &:nth-child(5) {
+        top: 9%;
+        right: 1.5%;
+    }
+
+    &:nth-child(6) {
+        top: 40%;
+        right: 14%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .home__item:not(:nth-child(1)) {
+        opacity: 0;
+      }
+}
+
+.home__item-number {
+    font-family: Actay;
+    font-size: 40px;
+    text-align: center;
+    background-color: #5E7600;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #F6FFD2;
+    width: 51px;
+    height: 51px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 890px) {
+        font-size: 30px;
+        width: 51px;
+        height: auto;
+    }
+
+    @media (max-width: 700px) {
+        width: 74px;
+        height: 73px;
+    }
+}
+
+.home__item-text {
+    font-family: Actay;
+    font-size: 14px;
+    font-weight: 400;
+    color: #F6FFD2;
+    max-width: 196px;
+    width: 100%;
+
+    @media (max-width: 850px) {
+        font-size: 10px;
+    }
+
+    @media (max-width: 700px) {
+        font-size: 14px;
+    }
+}
+
+.slider-toggles {
+    display: none;
+    margin-top: 15px;
+    text-align: center;
+
+    @media (max-width: 700px) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-next, .btn-prev {
+        font-family: Actay;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        cursor: pointer;
+
+        &>svg {
+            vertical-align: middle;
+
+            &:first-child {
+                margin-right: 5px;
+            }
+
+            &:last-child {
+                margin-left: 5px;
+            }
+        }
+    }
+}
