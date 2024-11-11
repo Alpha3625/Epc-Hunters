@@ -6,7 +6,8 @@
     "start": "webpack-dev-server --open",
     "build-dev": "webpack",
     "build-prod": "webpack --node-env=production",
-    "clear": "rd /s /q dist"
+    "clear": "rd /s /q dist",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Artyom",
@@ -17,13 +18,16 @@
     "not op_mini all"
   ],
   "description": "",
+  "homepage": "https://Alpha3625.github.io/Epc-Hunters",
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "babel-loader": "^9.2.1",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.2.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.3",
+    "image-webpack-loader": "^8.1.0",
     "mini-css-extract-plugin": "^2.9.2",
     "postcss": "^8.4.47",
     "postcss-loader": "^8.1.1",
