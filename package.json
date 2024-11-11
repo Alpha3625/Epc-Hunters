@@ -18,7 +18,7 @@
     "not op_mini all"
   ],
   "description": "",
-  "homepage": "https://Alpha3625.github.io/Epc-Hunters",
+  "homepage": "https://Alpha3625.github.io/Epc-Hunters/",
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
