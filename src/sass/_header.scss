@@ -5,6 +5,10 @@
     right: 0;
     left: 0;
     z-index: 1000;
+
+    @media (max-width: 500px) {
+       padding-top: 30px;
+    }
 }
 
 .header__inner {
@@ -19,7 +23,6 @@
 .header__menu {
     display: flex;
     width: 100%;
-    transition: all .3s;
 
     &.active {
         transform: translateY(0);

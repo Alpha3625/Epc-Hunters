@@ -12,6 +12,10 @@
     height: 100vh;
     padding: 40px 0 113px;
 
+    @media (max-height: 620px) {
+       height: 100%;
+    }
+
     @media (max-width: 500px) {
         padding: 30px 0 138px;
     }
