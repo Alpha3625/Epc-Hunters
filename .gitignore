@@ -2,3 +2,4 @@ node_modules/
 .hintrc
 .vscode/
 .DS_Store
+dist/
