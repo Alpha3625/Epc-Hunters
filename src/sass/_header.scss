@@ -7,7 +7,7 @@
     z-index: 1000;
 
     @media (max-width: 500px) {
-       padding-top: 30px;
+        padding-top: 30px;
     }
 }
 
@@ -48,14 +48,17 @@ body:has(.header__menu.active) {
     overflow-y: hidden;
 }
 
-
 .header__logo {
     margin-right: 52px;
     z-index: 1;
 
     &>svg {
+        width: 145px;
+        height: 45px;
+
         @media (max-width: 500px) {
             width: 88px;
+            height: 40px;
         }
     }
 

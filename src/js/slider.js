@@ -5,7 +5,6 @@ const initSlider = () => {
     const sliderBtnPrev = document.querySelector(".btn-prev");
 
     let activeSlideId = 0;
-
     const sliderInitWidth = 768;
 
     function nextSlide(e) {
@@ -31,35 +30,27 @@ const initSlider = () => {
 
     function sliderRender(id) {
         sliderItems.forEach((item, index) => {
-            if (index === id) {
-                item.style = "opacity: 1";
-            } else {
-                item.style = "opacity: 0";
-            }
+            item.style.opacity = index === id ? "1" : "0";
         });
     }
 
     function disableSlider() {
-        for (let i = 0; i < sliderItems.length; i++) {
-            sliderItems[i].style = "";
-        }
+        sliderItems.forEach(item => {
+            item.style.opacity = "";
+        });
         activeSlideId = 0;
     }
 
-    window.addEventListener("DOMContentLoaded", (e) => {
-        if (e.target.outerWidth < sliderInitWidth) {
+    function checkScreenSize() {
+        if (window.innerWidth < sliderInitWidth) {
             sliderRender(activeSlideId);
         } else {
             disableSlider();
         }
-    });
-    window.onresize = (e) => {
-        if (e.target.outerWidth < sliderInitWidth) {
-            sliderRender(activeSlideId);
-        } else {
-            disableSlider();
-        }
-    };
+    }
+
+    window.addEventListener("DOMContentLoaded", checkScreenSize);
+    window.addEventListener("resize", checkScreenSize);
 };
 
 export default initSlider;
