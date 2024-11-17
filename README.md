@@ -18,6 +18,6 @@
 [Перейти на сайт](https://alpha3625.github.io/Epc-Hunters/)
 
 ## Скриншоты
-![image](https://github.com/user-attachments/assets/d01e2d15-d74c-4bfe-ae4d-1d61259532c2)
+<img src="https://github.com/user-attachments/assets/d01e2d15-d74c-4bfe-ae4d-1d61259532c2">
 <img src="https://github.com/user-attachments/assets/24ba5c30-a904-4e3a-9b5b-d0aa490b172b" width="360" height="800">
 <img src="https://github.com/user-attachments/assets/9bcf3579-d53b-4cbc-8993-93e5daeee62a" width="360" height="800">
