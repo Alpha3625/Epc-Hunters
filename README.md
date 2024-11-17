@@ -18,5 +18,6 @@
 [Перейти на сайт](https://alpha3625.github.io/Epc-Hunters/)
 
 ## Скриншоты
-![image](https://github.com/user-attachments/assets/5d5c9c48-8842-45ea-befa-23e629b36be7)
 ![image](https://github.com/user-attachments/assets/d01e2d15-d74c-4bfe-ae4d-1d61259532c2)
+![Samsung-Galaxy-S20](https://github.com/user-attachments/assets/24ba5c30-a904-4e3a-9b5b-d0aa490b172b)
+![Samsung-Galaxy-S20-1](https://github.com/user-attachments/assets/9bcf3579-d53b-4cbc-8993-93e5daeee62a)
