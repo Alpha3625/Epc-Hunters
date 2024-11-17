@@ -20,6 +20,6 @@
 ## Скриншоты
 ![image](https://github.com/user-attachments/assets/1348698e-89d0-415e-9a79-d72f733968df)
 
-![image](https://github.com/user-attachments/assets/b9097764-7534-4609-934f-f2d3a9017d43)
+![image](https://github.com/user-attachments/assets/b9097764-7534-4609-934f-f2d3a9017d43){: style="width: 400px; height: 600;" }
 
-![image](https://github.com/user-attachments/assets/f381b92b-1d32-4eb3-9362-bce15f24a13d)
+![image](https://github.com/user-attachments/assets/f381b92b-1d32-4eb3-9362-bce15f24a13d){: style="width: 400px; height: 600;" }
